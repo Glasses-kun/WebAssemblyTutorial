@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
 	<title>WebAssembly Tutorial</title>
+	<script src="script.js"></script>
 </head>
 <body>
 	<h2>Calculator</h2>
@@ -14,7 +16,7 @@
 		<option value="Divide">Divide</option>
 		<option value="Multiply">Multiply</option>
 	</select><br>
-	<button id="solve">Solve</button><br>
+	<button id="solve" onclick="solve()">Solve</button><br>
 	<!-- <label>Answer: </label> -->
 	<label id="displayLabel"></label>
 </body>
